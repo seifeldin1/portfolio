@@ -41,3 +41,16 @@
 .animateFadeInUp {
   animation: fadeInUp 0.5s ease-out forwards;
 }
+
+.header {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 10px; /* Add some padding */
+  /* Other header styles as needed */
+}
+
+/* Optional: Style the skill icons themselves */
+.skill-icon {
+  font-size: 40px; /* Adjust icon size */
+  color: #333; /* Dark gray color */
+  /* Other icon styles as needed */
+}

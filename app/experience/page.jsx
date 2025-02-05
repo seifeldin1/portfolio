@@ -98,7 +98,7 @@ const Experience = () => {
                 </p>
                 <Button
                     className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mt-4"
-                    onClick={() => setShowEBECertificate(!showCertificate)}
+                    onClick={() => setShowEBECertificate(!showEBECertificate)}
                 >
                     {showEBECertificate ? "Hide Certificate" : "View Certificate"}
                 </Button>
@@ -160,7 +160,7 @@ const Experience = () => {
                 </p>
                 <Button
                     className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mt-4"
-                    onClick={() => setShowIEEE_FullStackCertificate(!showCertificate)}
+                    onClick={() => setShowIEEE_FullStackCertificate(!showIEEE_FullStackCertificate)}
                 >
                     {showIEEE_FullStackCertificate ? "Hide Certificate" : "View Certificate"}
                 </Button>

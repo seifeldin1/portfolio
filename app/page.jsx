@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Github, Briefcase, Folder, Mail } from "lucide-react";
-import Link from "next/link"; // Import the Link component
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         I am Seifeldin Sameh, passionate about web development.
       </p>
       <p className="text-lg text-gray-300">
-        I have experience in building responsive and user-friendly web. I am a fullstack engineer.
+        I have experience in building responsive and user-friendly web applications. I am a fullstack engineer.
       </p>
       <Image
         src="/images/profile.jpeg"
@@ -21,7 +21,7 @@ export default function Home() {
       />
 
       <div className="flex gap-6 mt-16">
-        <div className="relative group"> {/* Wrap GitHub */}
+        <div className="relative group">
           <a
             href="https://github.com/seifeldin1"
             target="_blank"
@@ -34,7 +34,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative group"> {/* Wrap Experience */}
+        <div className="relative group">
           <Link href="/experience">
             <Briefcase className="w-8 h-8 hover:text-gray-400 transition-colors" />
           </Link>
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative group"> {/* Wrap Projects */}
+        <div className="relative group">
           <Link href="/projects">
             <Folder className="w-8 h-8 hover:text-gray-400 transition-colors" />
           </Link>
@@ -52,7 +52,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative group"> {/* Wrap Email */}
+        <div className="relative group">
           <a href="mailto:seif1442004@gmail.com">
             <Mail className="w-8 h-8 hover:text-gray-400 transition-colors" />
           </a>
