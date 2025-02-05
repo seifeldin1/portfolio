@@ -51,7 +51,7 @@ const Experience = () => {
     const [showIEEE_FullStackCertificate, setShowIEEE_FullStackCertificate] = useState(false);
 
   return (
-    <div className="relative min-h-screen bg-gray-800">
+    <div className="relative min-h-screen bg-gray-800  overflow-hidden">
       {/* Rotating Icons Header */}
       <header className="fixed top-0 left-0 right-0 bg-gray-800 p-4 shadow z-50 overflow-hidden">
         <div className={styles["scroll-container"]}>
@@ -66,7 +66,7 @@ const Experience = () => {
       </header>
 
       {/* Main Content Area */}
-      <main className="pt-24 px-4 bg-gray-800">
+      <main className="pt-16 px-4 bg-gray-800">
         {/* Experience Section */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-4">Experience</h2>

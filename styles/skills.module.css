@@ -5,10 +5,10 @@
 /* Scrolling animation for the header icons */
 @keyframes scrollIcons {
   from {
-    transform: translateX(150%);
+    transform: translateX(0%);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(-90%);
   }
 }
 
@@ -22,8 +22,8 @@
 
 .scroll-content {
   display: flex;
-  gap: 10%; /* Adjust space between icons */
-  animation: scrollIcons 30s linear infinite; /* Adjust speed */
+  gap: 5%; /* Adjust space between icons */
+  animation: scrollIcons 40s linear infinite; /* Adjust speed */
 }
 
 /* Fade in and slide up animation for experience items */
@@ -47,6 +47,13 @@
   padding: 10px; /* Add some padding */
   /* Other header styles as needed */
 }
+
+.main {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 10px; /* Add some padding */
+  /* Other header styles as needed */
+}
+
 
 /* Optional: Style the skill icons themselves */
 .skill-icon {
