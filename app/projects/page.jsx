@@ -1,5 +1,4 @@
 import { Button, Card, CardContent, Typography , Grid } from "@mui/material";
-import styles from "../../styles/Projects.module.css";
 
 
 const Projects = () => {
