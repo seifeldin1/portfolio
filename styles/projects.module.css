@@ -1,0 +1,20 @@
+.projects-container {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  }
+  
+  .projects-container.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .project-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  

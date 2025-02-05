@@ -1,0 +1,43 @@
+/* styles/skills.module.css */
+
+
+
+/* Scrolling animation for the header icons */
+@keyframes scrollIcons {
+  from {
+    transform: translateX(150%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-container {
+  display: flex;
+  white-space: nowrap; /* Prevents line breaks */
+  overflow: hidden; /* Ensures icons don't overflow */
+  position: relative;
+  width: 100%;
+}
+
+.scroll-content {
+  display: flex;
+  gap: 10%; /* Adjust space between icons */
+  animation: scrollIcons 30s linear infinite; /* Adjust speed */
+}
+
+/* Fade in and slide up animation for experience items */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animateFadeInUp {
+  animation: fadeInUp 0.5s ease-out forwards;
+}

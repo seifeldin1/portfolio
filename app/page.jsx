@@ -20,30 +20,46 @@ export default function Home() {
         className="rounded-full mt-6"
       />
 
-      <div className="flex gap-6 mt-8">
-        {/* GitHub Link (external, opens in new tab) */}
-        <a
-          href="https://github.com/seifeldin1"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Github className="w-8 h-8 hover:text-gray-400 transition-colors" />
-        </a>
+      <div className="flex gap-6 mt-16">
+        <div className="relative group"> {/* Wrap GitHub */}
+          <a
+            href="https://github.com/seifeldin1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Github className="w-8 h-8 hover:text-gray-400 transition-colors" />
+          </a>
+          <div className="absolute bottom-full left-1/2 -translate-x-1/2 bg-gray-800 text-white text-sm px-2 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+            GitHub
+          </div>
+        </div>
 
-        {/* Experience Link (internal, same tab) */}
-        <Link href="/experience">
-          <Briefcase className="w-8 h-8 hover:text-gray-400 transition-colors" />
-        </Link>
+        <div className="relative group"> {/* Wrap Experience */}
+          <Link href="/experience">
+            <Briefcase className="w-8 h-8 hover:text-gray-400 transition-colors" />
+          </Link>
+          <div className="absolute bottom-full left-1/2 -translate-x-1/2 bg-gray-800 text-white text-sm px-2 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+            Experience And Skills
+          </div>
+        </div>
 
-        {/* Projects Link (internal, same tab) */}
-        <Link href="/projects">
-          <Folder className="w-8 h-8 hover:text-gray-400 transition-colors" />
-        </Link>
+        <div className="relative group"> {/* Wrap Projects */}
+          <Link href="/projects">
+            <Folder className="w-8 h-8 hover:text-gray-400 transition-colors" />
+          </Link>
+          <div className="absolute bottom-full left-1/2 -translate-x-1/2 bg-gray-800 text-white text-sm px-2 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+            Projects
+          </div>
+        </div>
 
-        {/* Email Link (external, opens in default mail client) */}
-        <a href="mailto:seif1442004@gmail.com">
-          <Mail className="w-8 h-8 hover:text-gray-400 transition-colors" />
-        </a>
+        <div className="relative group"> {/* Wrap Email */}
+          <a href="mailto:seif1442004@gmail.com">
+            <Mail className="w-8 h-8 hover:text-gray-400 transition-colors" />
+          </a>
+          <div className="absolute bottom-full left-1/2 -translate-x-1/2 bg-gray-800 text-white text-sm px-2 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+            Email
+          </div>
+        </div>
       </div>
     </div>
   );
