@@ -24,12 +24,12 @@ import { TbBrandCSharp } from "react-icons/tb";
 import styles from "../../styles/skills.module.css"; // Import CSS
 
 const skills = [
+    { icon: <SiC size={40} />, name: "C" },
+    { icon: <SiCplusplus size={40} />, name: "C++" },
+    { icon: <TbBrandCSharp size={40} />, name: "C#" },
     { icon: <SiGo size={40} />, name: "Go" },
     { icon: <SiTypescript size={40} />, name: "TypeScript" },
     { icon: <SiJavascript size={40} />, name: "JavaScript" },
-    { icon: <TbBrandCSharp size={40} />, name: "C#" },
-    { icon: <SiCplusplus size={40} />, name: "C++" },
-    { icon: <SiC size={40} />, name: "C" },
     { icon: <SiDotnet size={40} />, name: ".NET" },
     { icon: <SiNextdotjs size={40} />, name: "Next.js" },
     { icon: <SiNodedotjs size={40} />, name: "Node.js" },
