@@ -51,7 +51,7 @@ export default function Home() {
             alt="Profile"
             width={200}
             height={200}
-            className="rounded-full border-4 border-[#f39c12] mx-auto transition-transform duration-300 hover:scale-105"
+            className="rounded-full border-4 border-[#f39c12] mx-auto transition-transform duration-300 hover:scale-105 sparkle"
           />
           <h1 className="text-2xl sm:text-4xl font-bold mt-4 text-[#f39c12]">
             Seifeldin Sameh
