@@ -1,0 +1,15 @@
+@keyframes sparkle {
+    0%, 100% {
+      transform: scale(1);
+      filter: brightness(1);
+    }
+    50% {
+      transform: scale(1.05);
+      filter: brightness(1.2);
+    }
+  }
+  
+  .sparkle:hover {
+    animation: sparkle 3s ease-in-out infinite;
+  }
+  

@@ -1,7 +1,5 @@
 /* styles/skills.module.css */
 
-
-
 /* Scrolling animation for the header icons */
 @keyframes scrollIcons {
   from {
@@ -14,16 +12,16 @@
 
 .scroll-container {
   display: flex;
-  white-space: nowrap; /* Prevents line breaks */
-  overflow: hidden; /* Ensures icons don't overflow */
+  white-space: nowrap;
+  overflow: hidden;
   position: relative;
   width: 100%;
 }
 
 .scroll-content {
   display: flex;
-  gap: 5%; /* Adjust space between icons */
-  animation: scrollIcons 40s linear infinite; /* Adjust speed */
+  gap: 5%;
+  animation: scrollIcons 40s linear infinite;
 }
 
 /* Fade in and slide up animation for experience items */
@@ -43,21 +41,16 @@
 }
 
 .header {
-  background-color: #f0f0f0; /* Light gray background */
-  padding: 10px; /* Add some padding */
-  /* Other header styles as needed */
+  background-color: #f0f0f0;
+  padding: 10px;
 }
 
 .main {
-  background-color: #f0f0f0; /* Light gray background */
-  padding: 10px; /* Add some padding */
-  /* Other header styles as needed */
+  background-color: #f0f0f0;
+  padding: 10px;
 }
 
-
-/* Optional: Style the skill icons themselves */
 .skill-icon {
-  font-size: 40px; /* Adjust icon size */
-  color: #333; /* Dark gray color */
-  /* Other icon styles as needed */
+  font-size: 40px;
+  color: #333;
 }

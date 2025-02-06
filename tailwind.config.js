@@ -4,6 +4,7 @@ export default {
     "./pages/**/*.{js,jsx,ts,tsx,mdx}",
     "./components/**/*.{js,jsx,ts,tsx,mdx}",
     "./app/**/*.{js,jsx,ts,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
