@@ -6,6 +6,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --nav-height-desktop: 80px;
+  --nav-height-mobile: 60px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,4 +21,15 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Ensure sections aren't hidden under the fixed navbar */
+section {
+  scroll-margin-top: var(--nav-height-desktop);
+}
+
+@media (max-width: 768px) {
+  section {
+    scroll-margin-top: var(--nav-height-mobile);
+  }
 }
